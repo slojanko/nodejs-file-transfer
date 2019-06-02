@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-file-transfer",
+  "version": "1.0.0",
+  "description": "A Nodejs server-client file transfer",
+  "main": "server.js",
+  "dependencies": {
+    "websocket": "^1.0.28",
+    "ws": "^7.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "10.16.0"
+  }
+}
